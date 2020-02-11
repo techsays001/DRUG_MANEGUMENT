@@ -1,0 +1,352 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+
+    android:background="@drawable/gradient_bg">
+
+  <!-- TODO: Update blank fragment layout -->
+
+
+  <android.support.v4.widget.SwipeRefreshLayout
+      android:id="@+id/profile_refresh"
+      android:layout_width="match_parent"
+      android:layout_height="345dp">
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:orientation="vertical">
+
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="60dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="4dp"
+            app:cardBackgroundColor="@color/white"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="8dp">
+
+          <LinearLayout
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/docyou3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="16dp"
+                android:paddingRight="16dp"
+                android:paddingBottom="8dp"
+                android:text="+91 - 9876 543 210"
+                android:textColor="@color/grey1"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:id="@+id/dw"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="16dp"
+                android:paddingRight="16dp"
+                android:paddingBottom="8dp"
+                android:text="testemail@email.com"
+                android:textColor="@color/grey1"
+                android:textSize="16sp" />
+
+          </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="4dp"
+            app:cardBackgroundColor="@color/white"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="8dp">
+
+          <LinearLayout
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:orientation="horizontal">
+
+              <TextView
+                  android:layout_width="wrap_content"
+                  android:layout_height="match_parent"
+                  android:paddingLeft="16dp"
+                  android:paddingTop="8dp"
+                  android:paddingRight="16dp"
+                  android:paddingBottom="8dp"
+                  android:text="Email:"
+                  android:textColor="@color/grey1"
+                  android:textSize="16sp" />
+
+              <TextView
+                  android:id="@+id/demail"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_gravity="end"
+                  android:layout_weight="1"
+                  android:gravity="end"
+                  android:paddingLeft="16dp"
+                  android:paddingTop="8dp"
+                  android:paddingRight="16dp"
+                  android:paddingBottom="8dp"
+                  android:text="B.Tech"
+                  android:textColor="@color/black"
+                  android:textSize="16sp"
+                  android:textStyle="bold" />
+
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:background="@color/grey2" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:orientation="horizontal"
+                android:paddingBottom="8dp">
+
+              <TextView
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:paddingLeft="16dp"
+                  android:paddingTop="8dp"
+                  android:paddingRight="16dp"
+                  android:paddingBottom="8dp"
+                  android:text="DOB:"
+                  android:textColor="@color/grey1"
+                  android:textSize="16sp" />
+
+              <TextView
+                  android:id="@+id/dob"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_gravity="end"
+                  android:layout_weight="1"
+                  android:gravity="end"
+                  android:paddingLeft="16dp"
+                  android:paddingTop="8dp"
+                  android:paddingRight="16dp"
+                  android:paddingBottom="8dp"
+                  android:text="JNTU"
+                  android:textColor="@color/black"
+                  android:textSize="16sp"
+                  android:textStyle="bold" />
+
+            </LinearLayout>
+
+          </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="4dp"
+            app:cardBackgroundColor="@color/white"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="8dp">
+
+          <LinearLayout
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:orientation="horizontal">
+
+              <TextView
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:paddingLeft="16dp"
+                  android:paddingTop="8dp"
+                  android:paddingRight="16dp"
+                  android:paddingBottom="8dp"
+                  android:text="Address:"
+                  android:textColor="@color/grey1"
+                  android:textSize="16sp" />
+
+              <TextView
+                  android:id="@+id/daddress"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_gravity="end"
+                  android:layout_weight="1"
+                  android:gravity="end"
+                  android:paddingLeft="16dp"
+                  android:paddingTop="8dp"
+                  android:paddingRight="16dp"
+                  android:paddingBottom="8dp"
+                  android:text="Hyderabad"
+                  android:textColor="@color/black"
+                  android:textSize="16sp"
+                  android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:background="@color/grey2" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:orientation="horizontal" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:background="@color/grey2" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:orientation="horizontal"
+                android:paddingBottom="8dp">
+
+              <TextView
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:paddingLeft="16dp"
+                  android:paddingTop="8dp"
+                  android:paddingRight="16dp"
+                  android:paddingBottom="8dp"
+                  android:text="Gender:"
+                  android:textColor="@color/grey1"
+                  android:textSize="16sp" />
+
+              <TextView
+                  android:id="@+id/dgender"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_gravity="end"
+                  android:layout_weight="1"
+                  android:gravity="end"
+                  android:paddingLeft="16dp"
+                  android:paddingTop="8dp"
+                  android:paddingRight="16dp"
+                  android:paddingBottom="8dp"
+                  android:text="India"
+                  android:textColor="@color/black"
+                  android:textSize="16sp"
+                  android:textStyle="bold" />
+
+            </LinearLayout>
+          </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+
+      </LinearLayout>
+    </android.support.v4.widget.NestedScrollView>
+
+
+  </android.support.v4.widget.SwipeRefreshLayout>
+
+  <android.support.constraint.ConstraintLayout
+      android:layout_width="match_parent"
+      android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/editText"
+        android:layout_width="102dp"
+        android:layout_height="40dp"
+        android:ems="10"
+        android:text="YOUR ID"
+        android:textColor="@color/black"
+        android:textSize="25dp"
+
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.514"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.046" />
+
+    <TextView
+        android:id="@+id/rdname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn"
+        android:paddingLeft="16dp"
+        android:paddingTop="8dp"
+        android:paddingRight="16dp"
+
+        android:paddingBottom="8dp"
+        android:text="Test Name"
+        android:textColor="@color/black"
+        android:textSize="16dp"
+        android:textStyle="bold"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.18" />
+
+    <Button
+        android:id="@+id/bb"
+        android:layout_width="148dp"
+        android:layout_height="48dp"
+        android:background="@drawable/on"
+        android:text="ONLINE SUPORT"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.875" />
+
+
+  </android.support.constraint.ConstraintLayout>
+
+</LinearLayout>
